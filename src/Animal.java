@@ -74,6 +74,10 @@ public abstract class Animal implements Comparable<Animal> {
         exercise.exercise();
     }
 
+    public void adopt() {
+        System.out.println("Adoption status has been updated.");
+    }
+
     public static class AnimalAgeComparator implements Comparator<Animal> {
 
         public int compare(Animal a1, Animal a2) {

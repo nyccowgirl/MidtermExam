@@ -83,7 +83,6 @@ public abstract class Animal implements Comparable<Animal> {
         public int compare(Animal a1, Animal a2) {
             return (Integer.compare(a1.getAge(), a2.getAge()));
         }
-
     }
-    
+
 }
